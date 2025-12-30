@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+*.css.map
+style.css.map
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+

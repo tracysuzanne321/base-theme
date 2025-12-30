@@ -1,0 +1,24 @@
+{
+  "name": "basetheme",
+  "version": "1.0.0",
+  "description": "Base Theme WordPress Theme",
+  "scripts": {
+    "sass": "sass scss/style.scss style.css --style=expanded --source-map",
+    "sass:watch": "sass --watch scss/style.scss style.css --style=expanded --source-map",
+    "sass:prod": "sass scss/style.scss style.css --style=compressed --no-source-map",
+    "watch": "sass --watch scss/style.scss style.css --style=expanded --source-map",
+    "build": "sass scss/style.scss style.css --style=expanded --source-map",
+    "build:prod": "sass scss/style.scss style.css --style=compressed --no-source-map"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "scss"
+  ],
+  "author": "Tracy Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
+

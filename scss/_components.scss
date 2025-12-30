@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: $primary-color;
+  color: $secondary-color;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.button-outline {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
+}
